@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    color: black;
+    color: white;
 }
 
 /* === Fond animé === */
@@ -301,4 +301,13 @@ main {
     .tutorial-video video {
         max-width: 100%;
     }
+}
+/* === Assurer que tout le texte est en noir === */
+.tutorial-text,
+.tutorial-text h2,
+.tutorial-text ol,
+.tutorial-text li,
+.tutorial-text b,
+.tutorial-video h2 {
+    color: black;
 }
