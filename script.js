@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (document.getElementById("esign-container")) loadFiles("esign", "esign-container");
     if (document.getElementById("dns-container")) loadFiles("dns", "dns-container");
     if (document.getElementById("certificate-container")) loadFiles("certificate", "certificate-container");
+    if (document.getElementById("ipa-container")) loadFiles("ipa", "ipa-container");
 });
 
 function loadFiles(type, containerId) {
@@ -40,7 +41,7 @@ function loadFiles(type, containerId) {
 
         ],
         certificate: [
-    { "title": "‼️ALL CERTIFICATES‼️", "image": "CERTIFICATE.png", "link": "https://www.mediafire.com/file/nfi3hn9yut22ktk/all_certs/file" },
+    { "title": "❕ALL CERTIFICATES❕", "image": "CERTIFICATE.png", "alink": "https://www.mediafire.com/file/nfi3hn9yut22ktk/all_certs/file" },
 { "title": "Aldo Group Inc", "image": "CERTIFICATE.png", "link": "https://www.mediafire.com/file/w76aar7bgywxkqo/Aldo_Group_Inc.zip/file" },
     { "title": "ANBANG INSURANCE LTD", "image": "CERTIFICATE.png", "link": "https://www.mediafire.com/file/2nef4xou83v61ql/ANBANG_INSURANCE_LTD.zip/file" },
     { "title": "ARADA DEVELOPMENTS LLC", "image": "CERTIFICATE.png", "link": "https://www.mediafire.com/file/phnjilu144gihim/ARADA_DEVELOPMENTS_LLC.zip/file" },
@@ -91,6 +92,9 @@ function loadFiles(type, containerId) {
     { "title": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP HO CHI MINH CITY TE", "image": "CERTIFICATE.png", "link": "https://www.mediafire.com/file/1h6ueimjea1ofvb/VIETNAM_POSTS_AND_TELECOMMUNICATIONS_GROUP_HO_CHI_MINH_CITY_TE.zip/file" },
     { "title": "XCMG Foundation Construction Machinery Co., Ltd.", "image": "CERTIFICATE.png", "link": "https://www.mediafire.com/file/p489gfolwx6j4lp/XCMG_Foundation_Construction_Machinery_Co.%252C_Ltd.zip/file" },
     { "title": "Zhuhaishi ShijiXintong Network Technology Co., Ltd", "image": "CERTIFICATE.png", "link": "https://www.mediafire.com/file/5cins3x0z493gbo/Zhuhaishi_ShijiXintong_Network_Technology_Co.%252C_Ltd.zip/file" }
+        ],
+        ipa: [
+    { title: "Spotify +", image: "Spotify.png", link: "m" }
         ]
     };
 
