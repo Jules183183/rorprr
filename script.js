@@ -11,7 +11,7 @@ function loadFiles(type, containerId) {
     const files = {
         esign: [
             { title: "ANBANG INSURANCE LTD", image: "E-SIGN.png", link: "itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20250326223802845/8b2c126d-8aac-276b-0ec4-50ec784aea8d/app.plist" },
-            { title: "ARADA DEVELOPMENTS LLC", image: "E-SIGN.png", link: "itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20250326224000999/310abd7e-7fe3-941a-e0d1-12b765779138/app.plist" },
+            { title: "ARADA DEVELOPMENTS LLC", image: "E-SIGN.png", link: "ARADA DEVELOPMENTS LLC.zip" },
             { title: "AVIATION INFORMATION AND TELECOMMUNICATIONS JSC", image: "E-SIGN.png", link: "itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20250327001852842/9680a222-3278-8d42-568e-dd8e5f8d7efc/app.plist" },
             { title: "Bank of Chongqing Co.,Ltd", image: "E-SIGN.png", link: "itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20250327002025403/dd12e144-4203-40a1-eb4f-438c3168b0cf/app.plist" },
             { title: "China CITIC Bank Corporation Limited", image: "E-SIGN.png", link: "itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20250327002121528/6e42c5c7-d0aa-5b7a-9643-698d9eb6d034/app.plist" },
@@ -101,7 +101,14 @@ function loadFiles(type, containerId) {
     files[type].forEach(file => {
         const item = document.createElement("div");
         item.classList.add("esign-item");
-        item.onclick = () => window.open(file.link, "_blank");
+        item.onclick = () => {
+    const a = document.createElement('a');
+    a.href = file.link;
+    a.download = ''; // Téléchargement immédiat
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+};
 
         const image = document.createElement("img");
         image.src = file.image;
