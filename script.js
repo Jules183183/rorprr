@@ -41,7 +41,7 @@ function loadFiles(type, containerId) {
 
         ],
         certificate: [
-    { "title": "❕ALL CERTIFICATES❕", "image": "CERTIFICATE.png", "alink": "All Certificates.zip" },
+    { "title": "❕ALL CERTIFICATES❕", "image": "CERTIFICATE.png", "link": "All Certificates.zip" },
     { "title": "ANBANG INSURANCE LTD", "image": "CERTIFICATE.png", "link": "ANBANG INSURANCE LTD.zip" },
     { "title": "ARADA DEVELOPMENTS LLC", "image": "CERTIFICATE.png", "link": "ARADA DEVELOPMENTS LLC.zip" },
     { "title": "AVIATION INFORMATION AND TELECOMMUNICATIONS JSC", "image": "CERTIFICATE.png", "link": "AVIATION INFORMATION AND TELECOMMUNICATIONS JSC.zip" },
