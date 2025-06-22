@@ -105,7 +105,7 @@ function loadFiles(type, containerId) {
     { "title": "Zhuhaishi ShijiXintong Network Technology Co., Ltd", "image": "CERTIFICATE.png", "link": "Zhuhaishi ShijiXintong Network Technology Co., Ltd.zip" }
         ],
         ipa: [
-    { title: "Spotify +", image: "Spotify.png", link: "Spotify+.ipa" }
+    { title: "Spotify +", image: "Spotify.png", link: "https://www.dropbox.com/scl/fi/rhotddqms5lh53kkyiz3p/Spotify.ipa?rlkey=tohj8p96kkabc9tfl3uqpw1ne&st=73pt2obi&dl=0" }
         ]
     };
 
