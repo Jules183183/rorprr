@@ -97,7 +97,7 @@ function loadFiles(type, containerId) {
     { "title": "Sun Life Everbright Life Insurance Co.,Ltd", "image": "CERTIFICATE.png", "link": "Sun Life Everbright Life Insurance Co.,Ltd.zip" },
     { "title": "Sunshine Insurance Group Co., Ltd. 1", "image": "CERTIFICATE.png", "link": "Sunshine Insurance Group Co., Ltd 1.zip" },
     { "title": "Sunshine Insurance Group Co., Ltd. 2", "image": "CERTIFICATE.png", "link": "Sunshine Insurance Group Co., Ltd 2.zip" },
-{ "title": "TCL household Appliance Marketing Co., LTD.zip", "image": "CERTIFICATE.png", "link": "TCL household Appliance Marketing Co., LTD.zip" },
+{ "title": "TCL household Appliance Marketing Co., LTD", "image": "CERTIFICATE.png", "link": "TCL household Appliance Marketing Co., LTD.zip" },
     { "title": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP HO CHI MINH CITY TE", "image": "CERTIFICATE.png", "link": "VIETNAM_POSTS_AND_TELECOMMUNICATIONS_GROUP_HO_CHI_MINH_CITY_TE.zip" },
     { "title": "Wuling Power Corporation", "image": "CERTIFICATE.png", "link": "Wuling Power Corporation.zip" },
     { "title": "Zhuhaishi ShijiXintong Network Technology Co., Ltd", "image": "CERTIFICATE.png", "link": "Zhuhaishi ShijiXintong Network Technology Co., Ltd.zip" }
